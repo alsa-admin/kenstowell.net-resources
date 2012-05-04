@@ -1,0 +1,190 @@
+/**********************************************************************************************************************************************************
+ * IMPORTED STYLES																																																																        *
+ *********************************************************************************************************************************************************/
+@import url('1140/1140.css');
+@import url('1140/ie.css');
+@import url('1140/styles.css');
+
+/**********************************************************************************************************************************************************
+ * FONT KITS																																																														                  *
+ *********************************************************************************************************************************************************/
+@import url(fonts/oratorstd-webfont/stylesheet.css);
+@import url(fonts/junkos-typewriter/stylesheet.css);
+
+/**********************************************************************************************************************************************************
+ * DEFAULTS/NORMALIZATIONS																																																																*
+ *********************************************************************************************************************************************************/
+body { 
+	background: url('../images/screen_1_bg.gif') repeat;
+	font-family: 'OratorStdMedium', Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.clear-content {
+	clear:both;
+}
+/**********************************************************************************************************************************************************
+ * HEADER/NAVIGATION        																																																															*
+ *********************************************************************************************************************************************************/
+#main-header-one {
+    background: url('../images/nav_bg.png') no-repeat bottom center;
+    height: 52px;
+	text-align: center;
+	margin: 0 auto 0 auto;
+    z-index: 1001;
+} 
+
+.row nav {
+ 	text-align: left;
+ 	font-family: 'junkostypewriterRegular', Arial, sans-serif;
+ 	color:white;
+ 	display: inline-block;
+    z-index: 1000;
+}
+
+.row nav ul {
+	margin:0 auto;
+	text-align: center;
+	position: relative;
+	top:-18px;
+	list-style-type: none;
+} 
+
+.row nav ul li {
+	display: inline-block;
+	font-size: 30px;
+	height:100%;
+	padding: 0;
+	margin: 0;
+}
+ 
+nav a:visited {
+ 	color:white;
+ 	text-decoration: none;
+}
+
+nav li a {
+	padding:0 10px 0 10px;
+
+	margin:0;
+	height:28px;
+	width:100%;
+	
+} 
+
+.nav-separator {
+	height:26px;
+	margin-bottom: 6px;
+}
+ 
+/**********************************************************************************************************************************************************
+ * CONTENT       																																																															            *
+ *********************************************************************************************************************************************************/
+#main-content-one-wrapper {
+    margin:0;
+    padding: 0;
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: -1;
+}
+
+#main-content-one {
+	height:450px;
+	width:99%;
+	text-align: center;
+	/* margin: 8.5%  auto 0 auto; */
+	min-width: 977px;
+}
+
+#intro-text {
+	color:#CFCFC9;
+	font-size: .79em;
+	text-align: left;
+	padding: 0 0 0 2%;
+	margin-right:0;
+	width:24%;
+}
+
+/* Slide Show */
+#slide-show-wrapper {
+	width: 62%;
+	height:409px;
+	margin:2%;
+	padding:0 20px;
+	float: right;
+	color:white;
+	border-left: 2px solid #CFCFC9;
+	border-right: 2px solid #CFCFC9;
+}
+
+#slide-show {
+	height: 100%;
+	overflow: hidden;
+}
+
+#slide-show li {
+	list-style-type: none;
+	position:relative;
+	left:0;
+	top:0;
+}
+
+.slide-active {
+	z-index: 1000;
+}
+
+#slide-show img {
+	height: 100%;
+	position:relative;
+	top:0;
+	left:0;
+}
+
+#screen-one-border-bottom {
+	background: url('../images/screen_1_bottom.png') bottom center no-repeat;
+	height:58px;
+	width:100%;
+	position: absolute;
+	bottom:0;
+	left:0;
+	margin:0;
+	padding:0;
+}
+
+/* #main-content-two */
+#main-content-two-wrapper {
+    margin:0;
+    padding:0;
+    position: absolute;
+    background: url('../images/screen_2_bg.gif') repeat;
+}
+
+#main-content-two {
+    height:450px;
+    text-align: center;
+    min-width: 977px;
+}
+/**********************************************************************************************************************************************************
+ * MODALS       																																																															            *
+ *********************************************************************************************************************************************************/
+#coming-soon {
+	height:auto;
+	width:170px;
+	margin:0;
+	padding:3px;
+	text-align: center;
+	background-color: white;
+	color: #333;
+	font-family: 'junkostypewriterRegular', Arial, sans-serif;
+	border: 3px solid #888888;
+	box-shadow:5px 5px 7px #888888;
+	z-index: 99;
+}
+
+#coming-soon h2 {
+	padding:0;
+	margin:0;
+	position: relative;
+	top: -6px;
+}
